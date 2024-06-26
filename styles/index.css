@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Jet;
+  src: url(/fonts/JetBrainsMono/fonts/ttf/JetBrainsMono-Italic.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eeedeb;
+  color: #eeedeb;
+  font-family: Jet;
+  box-sizing: border-box;
+}
+
+header{
+    background-color: #2f3645;
+}
+
+nav{
+color: #eeedeb;
+height: 80px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  
+  
+}
+li {
+
+    margin: 30px 30px;
+ 
+  
+}
+
+a{
+    text-decoration: none;
+    color: #eeedeb ;
+    background-color: #2f3645;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 15px;
+  }
+
+
+.main{
+    color: #2f3645;
+    padding: 50px;
+    font-size: 20px;
+   
+}
+
+.box{
+  color: #2f3645;
+  border:  1px solid #2f3645;
+  text-align: center;
+  height: inherit;
+  
+}
+
+.web-img{
+  width: 100%;
+  height: 350px;
+}
+.box-para{
+  text-align: start;
+  padding: 15px;
+  font-size: 20px;
+  height:100%;
+}
+
+footer{
+  margin-top: 80px;
+  width: 100%;
+  background-color: #2f3645;
+  height: 80px;
+  padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
