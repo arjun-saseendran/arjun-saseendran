@@ -12,86 +12,122 @@ body {
   box-sizing: border-box;
 }
 
-header{
-    background-color: #2f3645;
+.send-btn{
+  background-color: #2f3645;
+  color: #eeedeb;
+  border: none;
+  border-radius: 5px;
 }
 
-nav{
-color: #eeedeb;
-height: 80px;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
 
-}
-
-ul {
-  list-style: none;
+.header-container {
+  background-color: #2f3645;
+  color: #eeedeb;
+  padding: 1px;
+  margin-bottom: 10px;
   display: flex;
-  
-  
-}
-li {
-
-    margin: 30px 30px;
-    cursor: pointer;
- 
-  
+  justify-content: space-between;
 }
 
-a{
-    text-decoration: none;
-    color: #eeedeb ;
-    background-color: #2f3645;
+.header-container .toggle-bar .toggle-logo {
+  display: none;
+  margin: 30px 30px;
 }
 
-.title {
+.header-container ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-container ul li {
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.logo {
   font-weight: bolder;
   font-size: 30px;
-  padding: 15px;
+  margin: 15px 15px;
+}
+
+@media (max-width: 767px) {
+  .header-container .toggle-bar .toggle-logo {
+    display: block;
   }
 
+  .header-container .menu {
+    transform: translateX(100%);
+    transition: transform ease 0.3s;
+  }
 
-.main{
-    color: #2f3645;
-    padding: 50px;
-    font-size: 20px;
-   
+  .header-container .menu {
+    display: block;
+    width: 100%;
+    background-color: #2f3645;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+    height: 65vh;
+  }
+
+  .header-container .menu li {
+    padding: 10px 5px;
+    display: block;
+  }
+
+  .header-container .menu.is-active {
+    transform: translateX(0%);
+  }
 }
 
-.box{
+.main {
   color: #2f3645;
-  border:  1px solid #2f3645;
-  text-align: center;
-  height: inherit;
-  
+  padding: 50px;
+  font-size: 20px;
 }
 
-.web-img{
+.box {
+  color: #2f3645;
+  border: 1px solid #2f3645;
+  text-align: center;
+  height: 100%;
+}
+
+.web-img {
   width: 100%;
   height: 350px;
 }
-.box-para{
+.box-para {
   text-align: start;
   padding: 15px;
   font-size: 20px;
-  height:100%;
 }
 
-footer{
+footer {
   margin-top: 80px;
   width: 100%;
   background-color: #2f3645;
-  height: 80px;
-  padding: 50px;
+  padding: 30px;
 }
 
+@media (max-width: 794px) {
+  .logo {
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 25px 15px;
+  }
+}
 
+.i-frm {
+  width: 100%;
+  height: 100%;
+}
 
-
-
-
-
-
-
-
+.box-i {
+  width: 417px;
+  height: 400px;
+}
