@@ -234,6 +234,34 @@ margin-top: 25px;
 
 }
 
+@media (min-width: 426px) and (max-width: 768px) {
+  .footer-logo{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+  .f-logo{
+    width: 120px;
+    height: 85px;
+  }
+  .copyright{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .footer-container {
+    height: 220px;
+  }
+
+  .logo {
+    font-size: 25px;
+    margin-top: 22px;
+  }
+  .box-margin{
+    margin-top: 10px;
+  }
+
+}
+
 
 
 
