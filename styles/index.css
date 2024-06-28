@@ -203,6 +203,37 @@ margin-top: 25px;
 
 }
 
+@media (min-width: 376px) and (max-width: 425px) {
+  .footer-logo{
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  .f-logo{
+    width: 100px;
+    height: 65px;
+  }
+  .copyright{
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  .footer-container {
+    height: 250px;
+  }
+
+  .logo {
+    font-size: 25px;
+    margin-top: 22px;
+  }
+  .header-container .menu {
+    height: 60vh;
+  }
+  .box-margin{
+    margin-top: 10px;
+  }
+
+}
+
 
 
 
