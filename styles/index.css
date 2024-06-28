@@ -21,7 +21,7 @@ body {
 
 
 .header-container {
-  background-color: #F27BBD;
+  background-color: #FF90C2;
   color: #2f3645;
   padding: 1px;
   margin-bottom: 10px;
@@ -112,7 +112,7 @@ body {
 .footer-container {
   margin-top: 25px;
   width: 100%;
-  background-color: #F27BBD;
+  background-color: #FF90C2;
   height: 350px;
 }
 .copyright{
