@@ -111,10 +111,11 @@ body {
   margin-top: 25px;
   width: 100%;
   background-color: #2f3645;
-  height: 280px;
+  height: 350px;
 }
 .copyright{
-margin-top: 25px;
+margin-top: 20px;
+  font-size: 20px;
 }
 
 
@@ -132,7 +133,7 @@ margin-top: 25px;
   height: 150px;
   background-color:#eeedeb;
   padding: 5px;
-
+  margin-top: 60px;
 }
 
 .footer-logo{
@@ -149,13 +150,14 @@ margin-top: 25px;
   .f-logo{
     width: 70px;
     height: 35px;
+    margin-top: 0px;
   }
   .copyright{
     margin-top: 15px;
     font-size: 9px;
   }
   .footer-container {
-    height: 170px;
+    height: 180px;
   }
 
   .logo {
@@ -181,13 +183,14 @@ margin-top: 25px;
   .f-logo{
     width: 90px;
     height: 55px;
+    margin-top: 5px;
   }
   .copyright{
     margin-top: 10px;
     font-size: 10px;
   }
   .footer-container {
-    height: 220px;
+    height: 240px;
   }
 
   .logo {
@@ -212,13 +215,14 @@ margin-top: 25px;
   .f-logo{
     width: 100px;
     height: 65px;
+    margin-top: 10px;
   }
   .copyright{
     margin-top: 15px;
     font-size: 12px;
   }
   .footer-container {
-    height: 250px;
+    height: 280px;
   }
 
   .logo {
@@ -243,13 +247,14 @@ margin-top: 25px;
   .f-logo{
     width: 120px;
     height: 85px;
+    margin-top: 15px;
   }
   .copyright{
     margin-top: 20px;
     font-size: 20px;
   }
   .footer-container {
-    height: 220px;
+    height: 240px;
   }
 
   .logo {
@@ -259,6 +264,47 @@ margin-top: 25px;
   .box-margin{
     margin-top: 10px;
   }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .footer-logo{
+    margin-left: 10px;
+  }
+
+  .f-logo{
+    width: 160px;
+    height: 80px;
+    margin-top: 50px;
+  }
+  .copyright{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .footer-container {
+    height: 250px;
+  }
+
+  .logo {
+    font-size: 30px;
+    margin-top: 18px;
+  }
+  .box-margin{
+    margin-top: 10px;
+  }
+
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .f-logo{
+
+    margin-top:50px;
+
+  }
+
+
+
 
 }
 
