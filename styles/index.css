@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #FFC7ED;
+  background-color: #EADBC8;
   color: #2f3645;
   font-family: Jet;
   box-sizing: border-box;
@@ -21,7 +21,7 @@ body {
 
 
 .header-container {
-  background-color: #FF90C2;
+  background-color: #DAC0A3;
   color: #2f3645;
   padding: 1px;
   margin-bottom: 10px;
@@ -112,7 +112,7 @@ body {
 .footer-container {
   margin-top: 25px;
   width: 100%;
-  background-color: #FF90C2;
+  background-color: #DAC0A3;
   height: 350px;
 }
 .copyright{
@@ -133,7 +133,7 @@ margin-top: 20px;
 .f-logo{
   width: 300px;
   height: 150px;
-  background-color:#FFC7ED;
+  background-color:#EADBC8;
   padding: 5px;
   margin-top: 60px;
 }
