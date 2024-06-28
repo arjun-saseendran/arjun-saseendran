@@ -25,14 +25,14 @@ const paraServices =
 const portfolioContent = `
     <div class='portfolio'> <div class='container'>
 <div class='row is-active' >
-<div class="col-12 col-md-4">
+<div class="col col-md-4">
     <div class="box-i">
         <iframe class="i-frm" src="https://arjunsaseendran91.github.io/Amazon/" frameborder="0"></iframe>
     </div>
 
 
 </div>
-<div class="col-12 col-md-4">
+<div class="col col-md-4">
 
     <div class="box-i">
 
@@ -42,7 +42,7 @@ const portfolioContent = `
 </div>
     
 
-    <div class="col-12 col-md-4">
+    <div class="col col-md-4">
         <div class="box-i">
         <iframe class="i-frm" src="https://arjunsaseendran91.github.io/UberStaticWebsite/" frameborder="0"></iframe>
     </div>
