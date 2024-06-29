@@ -36,7 +36,7 @@ handleServices.addEventListener("click",()=>{
     boxValue.innerHTML = oldBoxValue;
 })
 handleContact.addEventListener("click",()=>{
-  headingValue.innerHTML = "Contact";
+    headingValue.innerHTML = "Contact";
     paraValue.innerHTML = contactContent;
     boxValue.innerHTML = '';
 

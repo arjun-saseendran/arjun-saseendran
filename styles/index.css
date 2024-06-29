@@ -52,6 +52,10 @@ body {
   margin: 15px 15px;
 }
 
+#heading{
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   .header-container .toggle-bar .toggle-logo {
     display: block;
