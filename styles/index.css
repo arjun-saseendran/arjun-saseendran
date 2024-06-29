@@ -6,28 +6,28 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #F8F4E1;
-  color: #32012F;
+  background-color: #B2C8BA;
+  color: #3B5249;
   font-family: Jet;
   box-sizing: border-box;
 }
-
 .send-btn{
-  background-color: #32012F;
-  color: #F8F4E1;
+  background-color: #3B5249;
+  color: #B2C8BA;
   border: none;
   border-radius: 5px;
 }
-
-
 .header-container {
-  background-color: #32012F;
-  color: #F8F4E1;
+  background-color: #3B5249;
+  color: #B2C8BA;
+  font-weight: bolder;
   padding: 1px;
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
 }
+
+
 
 .header-container .toggle-bar .toggle-logo {
   display: none;
@@ -69,7 +69,7 @@ body {
   .header-container .menu {
     display: block;
     width: 100%;
-    background-color: #32012F;
+    background-color: #3B5249;
     position: absolute;
     left: 0;
     right: 0;
@@ -94,7 +94,7 @@ body {
 }
 
 .box {
-  border: 1px solid #32012F;
+  border: 1px solid #3B5249;
   text-align: center;
   height: 100%;
 }
@@ -114,13 +114,13 @@ body {
 .footer-container {
   margin-top: 25px;
   width: 100%;
-  background-color: #32012F;
+  background-color: #3B5249;
   height: 350px;
 }
 .copyright{
 margin-top: 20px;
   font-size: 20px;
-  color: #F8F4E1;
+  color: #B2C8BA;
 }
 
 
@@ -132,12 +132,12 @@ margin-top: 20px;
 .box-i {
   width: 417px;
   height: 400px;
-  border: 1px solid #32012F;
+  border: 1px solid #3B5249;
 }
 .f-logo{
   width: 300px;
   height: 150px;
-  background-color:#F8F4E1;
+  background-color:#B2C8BA;
   padding: 5px;
   margin-top: 60px;
 }
