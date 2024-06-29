@@ -22,7 +22,6 @@ body {
 
 .header-container {
   background-color: #9BBEC8;
-  color: #2f3645;
   padding: 1px;
   margin-bottom: 10px;
   display: flex;
@@ -91,7 +90,6 @@ body {
 }
 
 .box {
-  color: #2f3645;
   border: 1px solid #2f3645;
   text-align: center;
   height: 100%;
