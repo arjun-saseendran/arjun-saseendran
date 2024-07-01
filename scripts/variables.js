@@ -27,7 +27,7 @@ const portfolioContent = `
 <div class='row is-active' >
 <div class="col col-md-4">
     <div class="box-i">
-        <iframe class="i-frm" src="https://arjunsaseendran91.github.io/Amazon/" frameborder="0"></iframe>
+        <iframe class="i-frm" src="https://arjun-saseendran.github.io/Amazon/" frameborder="0"></iframe>
     </div>
 
 
@@ -37,14 +37,14 @@ const portfolioContent = `
     <div class="box-i">
 
     
-    <iframe class="i-frm" src="https://arjunsaseendran91.github.io/YouTube/" frameborder="0"></iframe>
+    <iframe class="i-frm" src="https://arjun-saseendran.github.io/YouTube/" frameborder="0"></iframe>
 </div>
 </div>
     
 
     <div class="col col-md-4">
         <div class="box-i">
-        <iframe class="i-frm" src="https://arjunsaseendran91.github.io/UberStaticWebsite/" frameborder="0"></iframe>
+        <iframe class="i-frm" src="https://arjun-saseendran.github.io/UberStaticWebsite/" frameborder="0"></iframe>
     </div>
         
         </div>
