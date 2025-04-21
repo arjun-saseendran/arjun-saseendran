@@ -12,7 +12,7 @@ export const App = () => {
   <Header />
   </header>
   <main className="flex-grow">
-    <section>
+    <section className="mx-2 md:mx-20 ">
      <Content/>
     </section>
   </main>

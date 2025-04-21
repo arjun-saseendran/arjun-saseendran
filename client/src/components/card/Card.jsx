@@ -3,9 +3,9 @@ import dp from '../../assets/dp.png';
 export const Card = () => {
   return (
     
-    <div className="border p-5 gap-4 mx-2 md:mx-20 flex flex-col text-center justify-center items-center rouded-xl bg-[#1A120B] h-[500px] w-[300px] rounded-xl" >
+    <div className="border p-2 gap-2 mx-auto flex flex-col text-center justify-center items-center rouded-xl bg-[#273F4F] h-full md:w-3/4 rounded-xl" >
       <div>
-      <img className='w-60 rounded-full' src={dp} alt="profile photo" />
+      <img className='w-32 rounded-full' src={dp} alt="profile photo" />
       </div>
       <div>
         <p className='text-white font-jetbrains'>
