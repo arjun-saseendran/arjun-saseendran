@@ -2,7 +2,7 @@ import store from "../../assets/store.png";
 
 export const Projects = () => {
   return (
-    <div className=" w-full mx-auto h-full bg-[#273F4F] border p-5 rounded-lg">
+    <div className=" w-full mx-auto h-full  border p-5 rounded-lg">
       <h1 className="text-white text-center font-jetbrains font-bold text-3xl mb-4">
         PROJECTS
       </h1>
