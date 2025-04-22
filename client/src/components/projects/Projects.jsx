@@ -4,7 +4,7 @@ import youtube from '../../assets/youtube.png'
 
 export const Projects = () => {
   return (
-    <div className=" w-full mx-auto h-96 border p-5 rounded-lg">
+    <div className=" w-full mx-auto h-full border p-5 rounded-lg">
       <h1 className="text-white text-center font-jetbrains font-bold text-3xl mb-10">
         PROJECTS
       </h1>
