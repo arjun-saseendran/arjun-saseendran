@@ -13,7 +13,7 @@ export const Header = () => {
       <div className="md:flex justify-between  items-center h-[100px]">
         <div className="flex justify-between w-full items-center p-2">
           <div className="flex flex-col justify-center items-center">
-            <p className="text-center my-auto text-xl hover:border hover:bg-[#ADB2D4] rounded-lg bg- p-2 cursor-pointer">
+            <p className="text-center my-auto text-xl  hover:text-[#ADB2D4] rounded-lg bg- p-2 cursor-pointer">
               <a href="https://www.linkedin.com/in/arjun-saseendran-dev/">
                 ARJUN SASEENDRAN
               </a>
