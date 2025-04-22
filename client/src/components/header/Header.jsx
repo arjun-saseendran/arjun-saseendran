@@ -30,10 +30,12 @@ export const Header = () => {
         >
           <ul className="md:flex items-center gap-20 py-4 text-lg text-center">
             <li className="cursor-pointer border hover:bg-[#ADB2D4] mb-2 md:mb-0  rounded-lg mx-2 py-2 p-5">
-              HOME
+           <Link to='/'>
+           HOME
+           </Link>  
             </li>
             <li className="cursor-pointer border hover:bg-[#ADB2D4] mb-2 md:mb-0  rounded-lg mx-2 py-2 p-5">
-              ABOUT
+              <Link to='/about'>ABOUT</Link>
             </li>
             <li className="cursor-pointer border hover:bg-[#ADB2D4]  rounded-lg mx-2 py-2 p-5">
               CONTACT
