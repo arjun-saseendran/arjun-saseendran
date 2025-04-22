@@ -3,7 +3,7 @@ import { Icons } from '../Icons/Icons'
 
 export const Contact = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-4'>
+    <div className='flex flex-col items-center justify-center gap-4 mt-10 md:mt-auto'>
  <h1 className="text-white text-center text-3xl font-jetbrains font-bold">
         CONTACT
       </h1>
