@@ -5,6 +5,7 @@ import "./index.css";
 import { Content } from "./pages/Content";
 import { Root } from "./routes/root";
 import { About } from "./components/about/About";
+import { Contact } from "./components/contact/Contact";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About/>
+      },
+      {
+        path: '/contact',
+        element: <Contact/>
       }
     ],
   },

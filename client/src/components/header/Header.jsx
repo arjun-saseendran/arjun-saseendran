@@ -38,7 +38,7 @@ export const Header = () => {
               <Link to='/about'>ABOUT</Link>
             </li>
             <li className="cursor-pointer border hover:bg-[#ADB2D4]  rounded-lg mx-2 py-2 p-5">
-              CONTACT
+              <Link to='/contact'>CONTACT</Link>
             </li>
           </ul>
         </div>
