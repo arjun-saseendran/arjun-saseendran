@@ -1,6 +1,7 @@
 import store from "../../assets/store.png";
 import amazon from "../../assets/amazon.png";
 import youtube from "../../assets/youtube.png";
+import aimoviebox from '../../assets/aimovebox.png'
 
 export const Projects = () => {
   return (
@@ -25,6 +26,22 @@ export const Projects = () => {
             />
           </a>
           <p className="text-white font-bold text-lg">stOre</p>
+        </div>
+        <div
+          className="rounded-lg text-center border p-2 w-32 h-32
+      
+       transition-transform duration-300 ease-in-out transform hover:scale-105
+      "
+        >
+          <a href="https://aimoivebox.web.app/">
+            <img
+              title="AI movie box"
+              className="rounded-lg"
+              src={aimoviebox}
+              alt="ai movie box web app"
+            />
+          </a>
+          <p className="text-white font-bold text-lg">AImoviebOx</p>
         </div>
         <div
           className="rounded-lg text-center border p-2 w-32 h-32
@@ -59,6 +76,7 @@ export const Projects = () => {
           </a>
           <p className="text-white font-bold text-lg">youtube(c)</p>
         </div>
+       
         <div className="rounded-lg border p-2 w-32 h-32 text-center">
           <p title="Chat app project" className="text-white py-5">
             coming soon..
