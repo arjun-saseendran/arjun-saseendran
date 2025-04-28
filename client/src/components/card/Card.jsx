@@ -4,7 +4,7 @@ export const Card = () => {
   return (
     <div className=" p-2 gap-2 mx-auto flex flex-col text-center justify-center items-center   h-full md:w-3/4 ">
       <div>
-        <img className="w-32 rounded-full" src={dp} alt="profile photo" />
+        <img className="w-32 border border-black rounded-full" src={dp} alt="profile photo" />
       </div>
       <div>
         <p className="font-thin">
