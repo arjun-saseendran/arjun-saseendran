@@ -7,12 +7,12 @@ export const Card = () => {
         <img className="w-32 rounded-full" src={dp} alt="profile photo" />
       </div>
       <div>
-        <p className="text-white font-jetbrains">
+        <p className="font-thin">
           Hey! I’m Arjun Saseendran, a full-stack web developer who loves
           building clean, responsive, and user-friendly web apps using the MERN
           stack. I enjoy turning ideas into smooth, functional experiences both
           on the front end and the back. Always learning, always building 
-     <p>     —let’s create something great together.</p>
+     <p>     let’s create something great together.</p>
         </p>
       </div>
     </div>

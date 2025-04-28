@@ -3,11 +3,11 @@ import React from "react";
 export const About = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-10 mt-10 md:mt-auto">
-      <h1 className="text-white text-center text-3xl font-jetbrains font-bold">
+      <h1 className=" text-center text-3xl font-thin">
         ABOUT
       </h1>
 
-      <p className="text-white font-jetbrains rounded-full p-5">
+      <p className=" font-thin rounded-full p-5">
         Hey! I’m Arjun Saseendran, a passionate full-stack web developer who
         specializes in building clean, responsive, and user-friendly web
         applications using the MERN stack (MongoDB, Express.js, React, Node.js).
