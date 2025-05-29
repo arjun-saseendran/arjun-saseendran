@@ -2,6 +2,7 @@ import store from "../../assets/store.png";
 import amazon from "../../assets/amazon.png";
 import youtube from "../../assets/youtube.png";
 import aimoviebox from '../../assets/aimovebox.png'
+import zensettle from '../../assets/zensettle.png'
 
 export const Projects = () => {
   return (
@@ -26,6 +27,24 @@ export const Projects = () => {
             />
           </a>
           <p className="font-thin text-lg">stOre</p>
+        </div>
+        <div
+          className="rounded-lg text-center border border-black p-2 w-32 h-32 
+      
+      transition-transform duration-300 ease-in-out transform hover:scale-105
+      
+      "
+        >
+          <a href="https://www.zensettle.com">
+            <img
+              title="pos app client"
+              className="rounded-lg"
+              src={zensettle}
+              alt="store web app"
+            />
+          </a>
+          <p className="font-thin text-sm">zensettle 
+            (client: legiongroup)</p>
         </div>
         <div
           className="rounded-lg text-center border border-black p-2 w-32 h-32
@@ -58,7 +77,7 @@ export const Projects = () => {
               alt="store web app"
             />
           </a>
-          <p className=" font-thin text-lg">amazon(c)</p>
+          <p className=" font-thin text-lg">amazon(clone)</p>
         </div>
         <div
           className="rounded-lg text-center border border-black p-2 w-32 h-32
@@ -74,7 +93,7 @@ export const Projects = () => {
               alt="store web app"
             />
           </a>
-          <p className=" font-thin text-lg">youtube(c)</p>
+          <p className=" font-thin text-lg">youtube(clone)</p>
         </div>
        
         <div className="rounded-lg border border-black p-2 w-32 h-32 text-center">
